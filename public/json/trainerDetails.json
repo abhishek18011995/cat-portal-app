@@ -1,0 +1,28 @@
+{ 
+    "_id" : ObjectId("583438d7c811f05cdef1de13"), 
+    "trainerId" : "156398", 
+    "trainerName" : "Ahmed Md Aziz", 
+    "courseName" : "C & JAVA Program", 
+    "designation" : "Lead Architect - Technology, DWT-DEP-Competency-DEE"
+}
+{ 
+    "_id" : ObjectId("583438d7c811f05cdef1de14"), 
+    "trainerId" : "362679", 
+    "trainerName" : " Rajendra Bolla", 
+    "courseName" : "Html and CSS", 
+    "designation" : "Technology Lead, DWT-DEP-Competency-DEE"
+}
+{ 
+    "_id" : ObjectId("583438d7c811f05cdef1de15"), 
+    "trainerId" : "276789", 
+    "trainerName" : "Srikanth Varada", 
+    "courseName" : "Angular Js", 
+    "designation" : "Technology Lead, DWT-DEP-Competency-DEE"
+}
+{ 
+    "_id" : ObjectId("583438d7c811f05cdef1de16"), 
+    "trainerId" : "362679", 
+    "trainerName" : "Deepchand Pati", 
+    "courseName" : "RWD", 
+    "designation" : "Technology Specialist, DWT-DEP-Competency-DEE"
+}

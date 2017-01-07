@@ -1,0 +1,66 @@
+{ 
+    "_id" : ObjectId("58343fe0c811f05cdef1de17"), 
+    "userName" : "Abhishek", 
+    "id" : "578296", 
+    "batchCode" : "HYD16WP004", 
+    "batchOwner" : "D.G PRAVEEN", 
+    "password" : "Abhi@296", 
+    "location" : "Hyderabad", 
+    "dateOfJoining" : "28-Jun-2016", 
+    "trainerId" : "156398"
+}
+{ 
+    "_id" : ObjectId("58343fe0c811f05cdef1de18"), 
+    "userName" : "Mahesh", 
+    "id" : "578110", 
+    "batchCode" : "HYD16WP004", 
+    "batchOwner" : "D.G PRAVEEN", 
+    "password" : "M@gg127", 
+    "location" : "Hyderabad", 
+    "dateOfJoining" : "28-Jun-2016", 
+    "trainerId" : "156398"
+}
+{ 
+    "_id" : ObjectId("58343fe0c811f05cdef1de19"), 
+    "userName" : "Pradha", 
+    "id" : "578281", 
+    "batchCode" : "HYD16WP004", 
+    "batchOwner" : "D.G PRAVEEN", 
+    "password" : "preethi@27", 
+    "location" : "Hyderabad", 
+    "dateOfJoining" : "28-Jun-2016", 
+    "trainerId" : "156398"
+}
+{ 
+    "_id" : ObjectId("58343fe0c811f05cdef1de1a"), 
+    "userName" : "Taher", 
+    "id" : "578136", 
+    "batchCode" : "HYD16WP004", 
+    "batchOwner" : "D.G PRAVEEN", 
+    "password" : "578136", 
+    "location" : "Hyderabad", 
+    "dateOfJoining" : "28-Jun-2016", 
+    "trainerId" : "156398"
+}
+{ 
+    "_id" : ObjectId("58343fe0c811f05cdef1de1b"), 
+    "userName" : "Ravi", 
+    "id" : "578287", 
+    "batchCode" : "HYD16WP004", 
+    "batchOwner" : "D.G PRAVEEN", 
+    "password" : "578287", 
+    "location" : "Hyderabad", 
+    "dateOfJoining" : "28-Jun-2016", 
+    "trainerId" : "156398"
+}
+{ 
+    "_id" : ObjectId("58343fe0c811f05cdef1de1c"), 
+    "userName" : "Robo", 
+    "id" : "111111", 
+    "batchCode" : "CHN16WP004", 
+    "batchOwner" : "CHITTI", 
+    "password" : "111111", 
+    "location" : "Chennai", 
+    "dateOfJoining" : "28-Jun-2016", 
+    "trainerId" : "362679"
+}

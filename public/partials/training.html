@@ -1,0 +1,22 @@
+<h2 class="text-center">The Training Schedule</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Course Name</th>
+            <th>Course Code</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="tr in trainingDetails">
+            <td>{{tr.sl}}</td>
+            <td>{{tr.courseName}}</td>
+            <td><a href="#/{{tr.courseCode}}" ng-click="sendCourseCode(tr.courseCode)">{{tr.courseCode}}</a>
+            </td>
+            <td>{{tr.startDate}}</td>
+            <td>{{tr.endDate}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,50 @@
+{ 
+    "_id" : ObjectId("58344751c811f05cdef1de1d"), 
+    "sl" : "1", 
+    "courseName" : "C", 
+    "courseCode" : "CS02", 
+    "startDate" : "29-Jun'16", 
+    "endDate" : "12-Jul'16", 
+    "syllabus" : "Basics of C Language, Databytes, Variables, Function, File Operations", 
+    "trainer" : "Ahmed MdAziz"
+}
+{ 
+    "_id" : ObjectId("58344751c811f05cdef1de1e"), 
+    "sl" : "2", 
+    "courseName" : "JAVA", 
+    "courseCode" : "JA02", 
+    "startDate" : "14-Jul'16", 
+    "endDate" : "22-Jul'16", 
+    "syllabus" : "Basics of Java", 
+    "trainer" : "Sanjay Sinha"
+}
+{ 
+    "_id" : ObjectId("58344751c811f05cdef1de1f"), 
+    "sl" : "3", 
+    "courseName" : "HTML & CSS", 
+    "courseCode" : "HTML03", 
+    "startDate" : "24-Jul'16", 
+    "endDate" : "02-Aug'16", 
+    "syllabus" : "Basics of HTML & CSS2, HTML5 & CSS3, RWD", 
+    "trainer" : "Rajendra Bolla"
+}
+{ 
+    "_id" : ObjectId("58344751c811f05cdef1de20"), 
+    "sl" : "4", 
+    "courseName" : "JavaScript", 
+    "courseCode" : "JS01", 
+    "startDate" : "04-Aug'16", 
+    "endDate" : "12-Sep'16", 
+    "syllabus" : "Basics of JavaScript, Jquery", 
+    "trainer" : "Sanyasi Rao"
+}
+{ 
+    "_id" : ObjectId("58344751c811f05cdef1de21"), 
+    "sl" : "5", 
+    "courseName" : "Angular JS", 
+    "courseCode" : "AJS01", 
+    "startDate" : "14-Sep'16", 
+    "endDate" : "2-Oct'16", 
+    "syllabus" : "Basics of Angular JS", 
+    "trainer" : "Srikanth Varada"
+}

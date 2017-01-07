@@ -1,0 +1,20 @@
+<!-- batch information -->
+<h1 class="text-center">Batch Information</h1>
+<h3 class="text-center"><mark>Number of Associates : {{batchLength}}</mark></h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Employee_Name</th>
+            <th>Employee_Id</th>
+            <th>Batch_Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="x in batchInfo|orderBy:'userName'">
+            <td>{{x.userName}}</td>
+            <td>{{x.id}}</td>
+            <td>{{x.batchCode}}</td>
+        </tr>
+    </tbody>
+</table>
+<h4><a href="#/home"><span class="glyphicon glyphicon-circle-arrow-left black"></span>&nbsp;Back</a></h4>

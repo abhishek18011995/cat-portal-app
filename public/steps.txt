@@ -1,0 +1,22 @@
+1 create db catportal
+2 create collections user
+
+3 take input from home page
+4 in server file access user and send the user file to the controller 
+5 then validate the given id and password with the responded file 
+
+
+
+Notes: app.set('trust proxy', 1)   --Please note that secure: true is a recommended option. However, it requires an https-enabled website, i.e., HTTPS is necessary for secure cookies. If secure is set, and you access your site over HTTP, the cookie will not be set. If you have your node.js behind a proxy and are using secure: true, you need to set "trust proxy" in express.
+
+app.use(session({
+
+    secret: 'keyboard cat',
+    resave: false,
+    saveUninitialized: true,
+})); ------ Sure, you could change it if you'd like to. A session secret in connect is simply used to compute the hash. Without the string, access to the session would essentially be "denied".
+
+the secret is a salt for the hash, this just makes it harder for someone to: 1. decrypt a phished cookie, 2. spoof a session by impersonating a user, since they don't have the secret (salt) they can't produce a proper session id.
+
+
+resave----Forces the session to be saved back to the session store, even if the session was never modified during the request. Depending on your store this may be necessary, but it can also create race conditions where a client makes two parallel requests to your server and changes made to the session in one request may get overwritten when the other request ends, even if it made no changes (this behavior also depends on what store you're using).

@@ -1,0 +1,35 @@
+<div class="login" ng-show="!isLogin">
+    <div class="modal-dialog userlogin">
+        <div class="modal-content">
+            <div class="modal-header" id="headModel">
+                <h4><span class="glyphicon glyphicon-lock"></span> Login Here</h4>
+            </div>
+            <div class="alert alert-info" ng-show="loginEmpty">
+                <strong>Information!</strong> UserName / ID Or Password not Entered !!
+            </div>
+            <div class="alert alert-danger" ng-show="loginInvalid">
+                <strong>Caution!</strong> UserName / ID Or Password Entered is Incorrect!!
+            </div>
+            <div class="modal-body" id="modelBody">
+                <div class="form-group">
+                    <label for="user"><span class="glyphicon glyphicon-user"></span> Username</label>
+                    <input class="form-control" id="user" ng-model="user.id" placeholder="Enter Employee Id" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="pass"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                    <input class="form-control" id="pass" placeholder="Enter password" type="password" required ng-model='user.password'>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input value="" checked type="checkbox">Remember me</label>
+                </div>
+                </br>
+                <button type="button" class="btn btn-success btn-block" ng-click="login()" data-toggle="tooltip" data-placement="top" title="Login Here!"><span class="glyphicon glyphicon-off"></span> Login </button>
+                <div class="modal-footer">
+                    <p>Forgot <a href="#" title="Please consult Administrator or ask peer to unlock account" data-content="Please consult Administrator or ask peer to unlock account">Password?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
